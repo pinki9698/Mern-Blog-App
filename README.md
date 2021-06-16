@@ -28,9 +28,9 @@
 ### Server runs on http://localhost:5000 and client on http://localhost:3000
 
 ## About The Blog App
-   . In this app You Can Register Your Account which will work as contact form.
-   . And you can perform CURD operation on your own posts.
-   . In the home page of this app we see the overall posts of different users.But you can't update or delete other users posts.
+   * In this app You Can Register Your Account which will work as contact form.
+   * And you can perform CURD operation on your own posts.
+   * In the home page of this app we see the overall posts of different users.But you can't update or      delete other users posts.
    
    
  Thank you.😊😊 
