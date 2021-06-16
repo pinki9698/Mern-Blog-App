@@ -1,0 +1,15 @@
+.posts{
+    flex: 9;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+@media (max-width:760px){
+  
+    .posts{
+      /* width: auto;
+      display: block; */
+      justify-content: center;
+    }
+  
+  }

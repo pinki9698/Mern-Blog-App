@@ -1,0 +1,90 @@
+.top {
+  width: 100%;
+  height: 50px;
+  background-color: white;
+  position: sticky;
+  top: 0;
+  display: flex;
+  align-items: center;
+  font-family: "Josefin Sans", sans-serif;
+  z-index: 999;
+  color: blue;
+  background-color: black;
+}
+
+.topLeft,
+.topRight {
+  flex: 3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.topCenter {
+  flex: 6;
+}
+
+.topIcon {
+  font-size: 20px;
+  margin-right: 10px;
+  color:white;
+  cursor: pointer;
+}
+.topIcon:hover{
+  color: #666;
+}
+
+.topImg {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+.topList {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.topListItem {
+  margin-right: 20px;
+  font-size: 18px;
+  font-weight: 300;
+  cursor: pointer;
+}
+topListItem:hover,topListItem:hover::after {
+  color: blue;
+  background-color: rgb(212, 19, 19);
+}
+/* .topListItem:active,.topListItem::after {
+   color: blue;
+   background-color: black;
+} */
+.topSearchIcon {
+  font-size: 18px;
+  color:white;
+  cursor: pointer;
+  margin-left: 15px;
+}
+.topSearchIcon:hover{
+   color: #666;
+}
+@media (max-width:630px){
+  .topIcon {
+    display: none;
+  }
+}
+@media (max-width:500px){
+  .top{
+    width: auto;
+   }
+}  
+@media (max-width:400px){
+  .top{
+    width: fit-content;
+   }
+}  

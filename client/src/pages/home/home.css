@@ -1,0 +1,12 @@
+.home{
+    display: flex;
+}
+@media (max-width:760px){
+  
+    .home{
+      width: auto;
+      display: block;
+      justify-content: center;
+    }
+  
+  }
