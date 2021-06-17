@@ -4,17 +4,21 @@ const UserSchema = new mongoose.Schema(
   {
     username: {
       type: String,
+      trim: true,
       required: true,
-      unique: true,
+      maxlength: 32,
     },
     email: {
-      type: String,
+        type: String,
+      trim: true,
       required: true,
-      unique: true,
+      maxlength: 32,
+      unique: true
     },
     password: {
       type: String,
       required: true,
+      minLength:6
     },
     profilePic: {
       type: String,
@@ -33,7 +37,9 @@ const UserSchema = new mongoose.Schema(
       maxLength:12
     },
     message: {
-        type: String,
+        type:String,
+        minlength:10,
+        trim:true,
         required:true
       },
   },
